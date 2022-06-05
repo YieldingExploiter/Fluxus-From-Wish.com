@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace FluxusAPIExample
 {
-  public partial class Form1 : Form
+  public partial class FluxusWish : Form
   {
     FluxAPI.API API = new FluxAPI.API();
 
-    public Form1()
+    public FluxusWish()
     {
       InitializeComponent();
       Random random = new Random();
